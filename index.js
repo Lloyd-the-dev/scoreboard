@@ -38,6 +38,8 @@ function sumThree() {
 const resetBtn = document.getElementById("reset")
 
 resetBtn.addEventListener("click", ()=>{
-   scoreEl.textContent = 0
-   scoreZord.textContent = 0
+   count = 0
+   count2 = 0
+   scoreEl.textContent = count
+   scoreZord.textContent = count2
 })
