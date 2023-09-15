@@ -12,11 +12,7 @@ body {
     padding: 3rem;
     border-radius: 8px;
 }
-@media (max-width: 677px){
-   .container{
-     width: 70%;
-   }
-}
+
 .inner{
   display: flex;
   justify-content: space-around;
@@ -75,4 +71,19 @@ body {
    background-color: #fff;
    color: black
 }
-
+@media (max-width: 1200px){
+  body{
+   display: flex;
+   align-items: center;
+   font-size: 2rem;
+  }
+  .container{
+    width: 70%;
+    padding: 4rem;
+    margin: 4rem auto;
+    height: 470px;
+  }
+  .reset{
+    margin-bottom: 2rem;
+  }
+}  
